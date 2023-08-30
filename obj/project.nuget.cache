@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SS8oVvyznvPY3/K9SgfM+KpP0J/7uOVGSRQ/f3ahdCJvBb6Hf+HaUQQhMnCboLXUq2XZ9Aum7gF9ZJ/YpXLKZw==",
+  "success": true,
+  "projectFilePath": "/home/cake/Desktop/gameDeal/gameDeal.csproj",
+  "expectedPackageFiles": [
+    "/home/cake/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.10/microsoft.aspnetcore.app.ref.7.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
