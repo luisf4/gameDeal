@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/home/cake/Desktop/gameDeal/gameDeal.csproj": {}
+    "/workspaces/gameDeal/gameDeal.csproj": {}
   },
   "projects": {
-    "/home/cake/Desktop/gameDeal/gameDeal.csproj": {
+    "/workspaces/gameDeal/gameDeal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cake/Desktop/gameDeal/gameDeal.csproj",
+        "projectUniqueName": "/workspaces/gameDeal/gameDeal.csproj",
         "projectName": "gameDeal",
-        "projectPath": "/home/cake/Desktop/gameDeal/gameDeal.csproj",
-        "packagesPath": "/home/cake/.nuget/packages/",
-        "outputPath": "/home/cake/Desktop/gameDeal/obj/",
+        "projectPath": "/workspaces/gameDeal/gameDeal.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/gameDeal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cake/.nuget/NuGet/NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "/usr/local/dotnet/7.0.306/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,12 +49,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.10, 7.0.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -62,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }
