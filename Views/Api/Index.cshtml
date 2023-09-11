@@ -1,0 +1,25 @@
+@model List<Deal>
+
+<h1>CheapShark Game Deals</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Sale Price</th>
+            <th>Normal Price</th>
+            <th>Metacritic Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var deal in Model)
+        {
+            <tr>
+                <td>@deal.title</td>
+                <td>@deal.salePrice</td>
+                <td>@deal.normalPrice</td>
+                <td>@deal.metacriticScore</td>
+            </tr>
+        }
+    </tbody>
+</table>
