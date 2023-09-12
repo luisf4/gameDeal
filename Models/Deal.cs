@@ -1,5 +1,4 @@
-    public class Deal
-    {
+    public class Deal {
         public string internalName { get; set; }
         public string title { get; set; }
         public string metacriticLink { get; set; }

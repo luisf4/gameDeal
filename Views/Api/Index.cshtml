@@ -5,6 +5,7 @@
 <table class="table">
     <thead>
         <tr>
+            <th>Logo</th>
             <th>Title</th>
             <th>Sale Price</th>
             <th>Normal Price</th>
@@ -15,6 +16,7 @@
         @foreach (var deal in Model)
         {
             <tr>
+                <td><img src="@deal.thumb" alt="a"></td>
                 <td>@deal.title</td>
                 <td>@deal.salePrice</td>
                 <td>@deal.normalPrice</td>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OpWzEFrluWjqYCYiORl8RFyvcYwcgWZwKI7Ka6UAtRdaGfdEr9maxX4dzst0eBtHpmGH7Yw6XMwZXDlId/KkGQ==",
+  "dgSpecHash": "ZcQDCIDZfP9ZrJ9SQnau68xWqzgaNj1VrW7+mFIl0TnGoFbZ8ZiaMkGSGpuG/PWrk++YoowH4vwNYb3ukEHdiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luis\\Desktop\\gameDeal\\gameDeal.csproj",
+  "projectFilePath": "/workspaces/gameDeal/gameDeal.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
