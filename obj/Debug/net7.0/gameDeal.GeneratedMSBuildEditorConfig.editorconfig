@@ -16,16 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /workspaces/gameDeal
 build_property._RazorSourceGeneratorDebug = 
 
-[/workspaces/gameDeal/Views/Api/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBpL0luZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/workspaces/gameDeal/Views/Api/Search.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBpL1NlYXJjaC5jc2h0bWw=
+[/workspaces/gameDeal/Views/Deals/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVhbHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/workspaces/gameDeal/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/gameDeal/Views/Search/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VhcmNoL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/gameDeal/Views/Search/SearchGames.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VhcmNoL1NlYXJjaEdhbWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/workspaces/gameDeal/Views/Shared/Error.cshtml]
