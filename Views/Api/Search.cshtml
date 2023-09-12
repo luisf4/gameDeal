@@ -1,0 +1,22 @@
+@model List<DealSearch>
+
+<h1>CheapShark Game Deals</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Logo</th>
+            <th>Title</th>
+            <th>Cheapest</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model) {
+            <tr>
+                <td><img class="imgSearch"src="@i.thumb" alt="a"></td>
+                <td>@i.external</td>
+                <td>@i.cheapest</td>
+            </tr>
+        }
+    </tbody>
+</table>

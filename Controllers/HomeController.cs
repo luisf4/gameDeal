@@ -5,8 +5,9 @@ using gameDeal.Models;
 namespace gameDeal.Controllers;
 
 public class HomeController : Controller {
-    public string Index()
-    {
-        return "Hello from Home";
+    public IActionResult Index() {
+        return View();
     }
+
+
 }
