@@ -1,4 +1,4 @@
-@model List<Deal>
+@model List<DealSearch>
 
 <!DOCTYPE html>
 <html>
@@ -6,6 +6,12 @@
     <title>CheapShark Game Deals</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Include Bootstrap CSS from a CDN or your local installation -->
+    <style>
+        /* Custom styles, if needed */
+        .imgSearch {
+            max-width: 100px; /* Set the maximum width for the game logo image */
+        }
+    </style>
 </head>
 <body>
 
@@ -16,19 +22,15 @@
             <tr>
                 <th>Logo</th>
                 <th>Title</th>
-                <th>Sale Price</th>
-                <th>Normal Price</th>
-                <th>Metacritic Score</th>
+                <th>Cheapest</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var deal in Model) {
                 <tr>
-                    <td><img src="@deal.thumb" alt="Game Logo"></td>
-                    <td>@deal.title</td>
-                    <td>@deal.salePrice</td>
-                    <td>@deal.normalPrice</td>
-                    <td>@deal.metacriticScore</td>
+                    <td><img class="imgSearch" src="@deal.thumb" alt="Game Logo"></td>
+                    <td>@deal.external</td>
+                    <td>@deal.cheapest</td>
                 </tr>
             }
         </tbody>

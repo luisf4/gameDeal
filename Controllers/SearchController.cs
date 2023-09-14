@@ -11,7 +11,9 @@ public class SearchController : Controller {
     public IActionResult Index() {
         return View();
     }
-    public async Task<IActionResult> SearchGames(string game) { 
+    
+    [HttpPost]
+    public async Task<IActionResult> Results(string game) { 
         var client = new HttpClient();
         var res = await client.GetAsync($"https://www.cheapshark.com/api/1.0/games?title={game}");
 

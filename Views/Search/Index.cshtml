@@ -1,6 +1,13 @@
-<form asp-controller="" asp-action="Index">
-    <p>
-        Title: <input type="text" name="SearchString" />
-        <input type="submit" value="Filter" />
-    </p>
-</form>
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form asp-controller="Search" asp-action="Results" method="post" class="border rounded p-3">
+                <div class="form-group">
+                    <label for="game">Game Name</label>
+                    <input type="text" class="form-control" id="game" name="game" placeholder="Enter the game name" />
+                </div>
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+    </div>
+</div>
